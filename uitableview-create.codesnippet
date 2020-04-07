@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uitableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#UITableView Name#&gt;: UITableView = {
+        let tableView = UITableView(frame: .zero, style: &lt;#T##UITableView.Style#&gt;)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(&lt;#T##cellClass: AnyClass?##AnyClass?#&gt;, forCellReuseIdentifier: &lt;#T##String#&gt;)
+        tableView.backgroundColor = &lt;#UITableView background color#&gt;
+        return tableView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EAA9A6E5-2C54-44B3-83E9-C604BDCBEDB4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates an UITableView by code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableView by code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
