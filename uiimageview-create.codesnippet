@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uiimageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#UIImageView Name#&gt;: UIImageView = {
+        let view = UIImageView(image: &lt;#T##UIImage?#&gt;)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.contentMode = &lt;#UIView.ContentMode#&gt;
+        return view
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E8DBD888-CEDB-4385-9730-E1EED3DD000C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates an UIImageView by code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView by Code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
