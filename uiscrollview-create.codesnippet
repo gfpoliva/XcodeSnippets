@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uiscrollview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#UIScrollView Name#&gt;: UIScrollView = {
+        let view = UIScrollView(frame: &lt;#T##CGRect#&gt;)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>733C6A4F-877D-4C3C-BBE0-690CD1E01A18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates an UIScrollView by code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIScrollView by Code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
